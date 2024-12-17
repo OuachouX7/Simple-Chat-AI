@@ -1,0 +1,64 @@
+.section-container {
+  width: 100%;
+  display: flex;
+  height: 70%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.assist {
+  color: transparent;
+  background-image: linear-gradient(#000, #9747ff, red);
+  background-clip: text;
+}
+.section > .para {
+  width: 30%;
+  text-align: center;
+  text-wrap: wrap;
+  opacity: 0.5;
+  color: #767676;
+}
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+.section > .blur {
+  position: absolute;
+  bottom: -160%;
+  z-index: -1;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+}
+.response-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+.req-res {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.req {
+  align-self: flex-end;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 16px;
+}
+.res {
+  align-self: flex-start;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 16px;
+  max-width: 35%;
+}

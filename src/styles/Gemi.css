@@ -1,0 +1,49 @@
+.gemi-container {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.gemi-container > .gemi {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gemi > input {
+  width: 90%;
+  border-radius: 18px;
+  background-color: rgba(140, 140, 140, 0.1);
+  color: #424242;
+  padding: 15px;
+}
+.btn {
+  background-color: #9747ff;
+  border-radius: 20px;
+  width: 3%;
+  height: 30%;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 8.9%;
+}
+.btn > svg {
+  width: 50%;
+  height: 50%;
+}
+.footer-img {
+  position: absolute;
+  bottom: 0;
+  left: -20%;
+  width: 700px;
+  height: 700px;
+  z-index: -1;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
