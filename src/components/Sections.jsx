@@ -1,5 +1,4 @@
 import "../styles/section.css";
-import blur from "../images/Group 2.svg";
 
 const Section = ({ resp, sub }) => {
   return (
@@ -25,7 +24,7 @@ const Section = ({ resp, sub }) => {
             Marketing, and Negotiation. Choose the agent that suits your needs
             and start your conversation with ease.
           </p>
-          <img className="blur" src={blur} alt="blur" />
+          <img className="blur" src='/images/Group 2.svg' alt="blur" />
         </div>
       )}
     </div>

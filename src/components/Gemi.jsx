@@ -1,6 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { useEffect, useState } from "react";
-import logo from "../images/Group 18.svg";
 import "../styles/Gemi.css";
 const Gemi = ({ sendDataToParent, apiKey }) => {
   const [reqs, setreqs] = useState([]);
@@ -70,7 +69,7 @@ const Gemi = ({ sendDataToParent, apiKey }) => {
           </svg>
         </button>
       </div>
-      <img className="footer-img" src={logo} alt="img2" />
+      <img className="footer-img" src='/images/Group 18.svg' alt="img2" />
     </div>
   );
 };

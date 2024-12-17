@@ -1,6 +1,3 @@
-import Logo from "../images/logo.svg";
-import menubar from "../images/menubar.svg";
-import header from "../images/header.svg";
 import "../styles/header.css";
 
 const Header = () => {
@@ -8,7 +5,7 @@ const Header = () => {
     <div className="header-container">
       <div className="header">
         <div className="logo">
-          <img src={Logo} alt="img" />
+          <img src='/images/logo.svg' alt="img" />
         </div>
         <div className="nav">
           <ul>
@@ -19,10 +16,10 @@ const Header = () => {
           </ul>
         </div>
         <div>
-          <img src={menubar} alt="menu" />
+          <img src='/images/menubar.svg' alt="menu" />
         </div>
       </div>
-        <img src={header} alt="img2" className="rel"/>
+        <img src='/images/header.svg' alt="img2" className="rel"/>
     </div>
   );
 };
